@@ -1,0 +1,237 @@
+.price-container {
+  display: flex;
+  background-color: #fff;
+}
+.pricing-plan {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #000;
+ height: 75vh;
+flex-direction: column
+}
+
+.pricing-plan h1 {
+  color: #fff;
+  font-size: 8rem;
+  font-weight: 400;
+}
+
+.pricing-plan p {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: -90px;
+}
+
+.version-control {
+ position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #d3dbd8;
+  flex-direction: column;
+  height: 100vh;
+  overflow: visible;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  z-index: 1;
+ 
+}
+
+.version-control h1 {
+  color: #000;
+  font-size: 4.3rem;
+  font-weight: 450;
+ 
+  
+}
+
+.version-control p {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 450;
+  text-align: center;
+  margin-top: -40px;  
+}
+
+.table-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 100%;
+  margin-top: -200px;
+  z-index: 2;
+ 
+}
+
+
+table {
+  align-items: flex-start;
+  background-color: #fff;
+  min-height: 120vh;
+  width: 70%;
+  border-collapse: collapse;
+  border: 2px solid #4A7C74;
+
+}
+
+thead tr th {
+    border: 2px solid #4A7C74;
+     padding: 20px;
+}
+
+table th {
+  color: #000;
+ text-align: left;
+ font-size: 1.5rem;
+
+}
+
+.abstract-enterprice {
+  display: flex;
+  background-color: #4A7C74;
+  color: #fff;
+ 
+}
+
+.table-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: -200px;
+  z-index: 2;
+}
+
+table {
+  align-items: flex-start;
+  background-color: #fff;
+  min-height: auto;
+  width: 70%;
+  border-collapse: collapse;
+  border: 2px solid #4A7C74;
+}
+
+thead tr th {
+  border: 2px solid #4A7C74;
+  padding: 20px;
+}
+
+tbody tr td {
+  border: 2px solid #4A7C74;
+  padding: 20px;
+}
+
+table th {
+  color: #000;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.abstract-enterprice {
+  display: flex;
+  background-color: #4A7C74;
+  color: #fff;
+}
+
+.table-price h2 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-top: -10px; 
+}
+
+.table-price button{
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+  padding: 12px 18px;
+  border: 2px solid #000;
+  font-size: 1.2rem;
+}
+
+.table-price button:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+table .last-row {
+ 
+  padding: 20px;
+  background-color: #fff;
+  
+}
+
+.last-row p {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 500;
+ 
+}
+
+.design-insights {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 10rem;
+  
+}
+
+.latest-design {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+ 
+
+}
+
+.latest-design h1 {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.email-form {
+  display: flex;
+  width: 300px;
+}
+
+.email-form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+
+.email-form input::placeholder {
+  color: gray;
+}
+
+.latest-design button {
+  background-color: #4C5FD5;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+
+  
+}
+
+.design-insights img {
+  width: 600px;
+  height: 500px;
+}
+
+

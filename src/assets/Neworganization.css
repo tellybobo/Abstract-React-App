@@ -1,0 +1,233 @@
+.neworganization-container {
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  min-height: 40vh;
+ flex-direction: column;
+ padding: 2rem;
+}
+
+.neworganization-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0;
+  background-color: #fff;
+  gap: 30rem;
+}
+
+
+.neworganization-left, .neworganization-right {
+  flex: 1;
+}
+
+.neworganization-center {
+  flex: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.neworganization-logo-img {
+  height: 30px;
+  width: auto;
+  
+}
+
+/* Center the steps absolutely */
+.step-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Invisible div to balance the logo's space */
+.right-placeholder {
+  width: 30px; /* same or similar width as logo */
+}
+.step-indicator {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+
+.step-indicator::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #e0e0e0;
+  z-index: 0;
+}
+
+
+.step {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #d0d0d0;
+  z-index: 1;
+  position: relative;
+}
+
+
+.step.active {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+}
+
+.new-organization {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: #e0e0e0;
+border-radius: 30px;
+margin-left: 120px;
+margin-top: 80px;
+height: 90vh;
+padding: 70px 20px 20px 20px;
+
+}
+
+.new-organization h1 {
+ text-align: center;
+  color: #000;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: -70px;
+  line-height: 50px;
+ 
+}
+.new-organization p {
+ text-align: center;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-top: -15px;
+ 
+}
+
+.new-organization p:nth-of-type(2) {
+ text-align: center;
+ color: #000;
+ font-size: 1rem;
+ font-weight: 500;
+ margin-left: 80px;
+ margin-right: 80px;
+ margin-top: 15px;
+}
+
+.organization-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.organization-form label {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+}
+
+.organization-form input {
+ padding: 10px;
+ border: 1px solid blue;
+ border-radius: 12px;
+ width: 380px;
+ padding-left: 0.6rem;
+ outline: none;
+ font-size: 22px;
+}
+
+.select-numbers {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.select-numbers label {
+   color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.select-numbers select {
+ padding: 10px;
+ border: 1px solid blue;
+ border-radius: 12px;
+ width: 400px;
+ padding-left: 0.6rem;
+ outline: none;
+ font-size: 22px;
+ margin-top: 10px;
+}
+
+.select-terms {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.terms-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.terms-wrapper input[type="checkbox"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.terms-wrapper p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.terms-wrapper a {
+  color: #4C5FD5;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.terms-wrapper a:hover {
+ color: blue;
+}
+
+.organization-form button {
+   background-color: #4C5FD5;
+   align-items: center;
+   color: #fff;
+   font-size: 1.2rem;
+   font-weight: 500;
+   text-align: center;
+   border-radius: 12px;
+   width: 400px;
+   padding: 8px 12px;
+   margin-top: 20px;
+}
+
+.organization-form button:hover {
+  background-color: rgba(29, 29, 231, 0.925);
+}
